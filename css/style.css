@@ -52,6 +52,15 @@ h1 {
 	font-weight: bolder;
 }
 
+.follow {
+	background-color: white;
+	padding: 5px;
+	font-size: .8em;
+	border-style: solid; 
+	border-width: 1px;
+	border-color: darkgray;
+}
+
 #bannerHero {
 	background: url("../images/travel_stock6.jpg");
 	background-position: center;
@@ -70,7 +79,7 @@ h1 {
 	position: absolute;
 	top: 15%;
 	margin: auto 20%;
-	padding: 10px;
+	padding: 30px;
 	text-align: center;
 	color: #fff;
 	/*width: 100%;
@@ -86,6 +95,7 @@ h1 {
 .footerCTAcontainer {
 	background-image: url("../images/planebg.png");
 	width: 100%;
+	margin-top: 30px;
 }
 
 .footerCTAcontainer2 {
@@ -139,6 +149,7 @@ h1 {
 .postcard {
 	background-color: #DEDEDE;
 	text-align: center;
+/*	margin: 5px;*/
 }
 
 .profilephoto {
@@ -223,9 +234,32 @@ footer a {
 	color: lightgray;
 }
 
+.profilefixed {
+	position: fixed;
+	width: 25%;
+}
+
+.postcardvertical {
+	margin: 10px;
+}
+
+.mapimage {
+	padding: 5px;
+}
+
 @media only screen and (max-width: 64.063em) { 
+
+.nosmall {
+	display: none;
+}
+
 #psubheader {
 	display: none;
+}
+
+.profilefixed {
+	position: relative;	
+	width: 100%;
 }
 
 #bannerHero {
